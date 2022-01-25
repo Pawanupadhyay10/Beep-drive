@@ -39,7 +39,7 @@ start, and if both eyes are open the time decreases and sound stops after some t
 if(right_eye_pred[0] == 0 and left_eye_pred == 0):
 time += 1
 cv2. putText(frame,&quot;Inactive&quot;,(10,height-20), font, 1,(255,255,255),1,cv2.LINE_AA)
-# if(right_eye_pred[0]==1 or left_eye_pred[0]==1):
+##### if(right_eye_pred[0]==1 or left_eye_pred[0]==1):
 else:
 time -= 1
 cv2.putText(frame,&quot;Active&quot;,(10,height-20), font, 1,(255,255,255),1,cv2.LINE_AA)
