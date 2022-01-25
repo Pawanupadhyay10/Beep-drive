@@ -1,5 +1,5 @@
-Project details:
-Driver Drowsiness Detection System with OpenCV &amp; Machine Learning
+##Project details:
+####Driver Drowsiness Detection System with OpenCV &amp; Machine Learning
 This driver drowsiness detection project is created to prevent accidents. Drowsiness means
 sleepiness, so it prevents accidents that are caused by drivers who are feeling drowsy or we can
 say who fell asleep while driving. So we are creating a Drowsiness detection system that will
@@ -8,7 +8,7 @@ seconds, the system will alert the person by ringing an alert sound.
 Our approach to Create Drowsiness detection system:
 In this project, for collecting images from webcam we will be using OpenCV and feed these
 images to our Deep learning model which will classify that the person’s eyes is ‘Open’ or ‘Closed’.
-So we will follow these steps:
+######So we will follow these steps:
 
  We will take image input from the camera
  Detect face and eyes in the image.
@@ -16,7 +16,7 @@ So we will follow these steps:
  Feed this to our classifier(model), which will categorize whether eyes are open or closed.
  At last, we will calculate the time to check if the person is drowsy or not.
 
-Driver Drowsiness Detection 
+######Driver Drowsiness Detection 
 
 haar cascade files: This folder has files that are used to detect the face and eyes of a person,
 these files are xml files. The haar cascade files have many xml files that are required to detect
@@ -66,6 +66,7 @@ break
 capture.release()
 cv2.destroyAllWindows()
 So this is the full explanation of the “drowsiness_system.py” file.
-Summary
+
+####Summary
 In this project, we learn OpenCV and use a haar cascade classifier to detect faces and eyes of a
 person. With the help of this, we are successfully able to create a drowsy driver alert system.
